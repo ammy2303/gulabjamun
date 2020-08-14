@@ -1,0 +1,174 @@
+html {
+    scroll-behavior: smooth;
+    background-color: #D7CEC7;
+}
+
+body{
+    margin: 0;
+    padding-top: 70px;
+}
+
+#desc{
+    margin: 20px 20px;
+}
+
+#toplist{
+    list-style-type: none;
+    opacity: 0.99;
+    font-size: 34px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+
+#history{
+    text-align: center;
+}
+
+#icon{
+    float: left;
+}
+
+.gjamunheading    {
+    background-color: #ffffcc;
+    color: #000000;
+    float: left;  
+}
+
+span a{
+    float: left;
+}
+
+nav a{
+    float: right;
+    display: inline-block;
+}
+
+/*#gjnaam{
+    display: flex;
+    border-style: dashed;
+    float: left;
+    background-color: aliceblue;
+}*/
+
+#toplist li {
+    float: right;
+}
+
+a {
+    /*display: block;*/
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header a:hover:not(.active) {
+    background-color: blanchedalmond;
+    color: #000000;
+}
+
+#img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+    height: auto;
+}
+
+.maindiv{
+    /*border-style: groove;*/
+    width: 98%;
+    height: 400px;
+    background-color: blanchedalmond;
+    padding: 10px 10px;
+}
+
+.firstdiv{
+   /* border-style: dashed;*/
+    width: 45%;
+    max-height: 400px;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.seconddiv{
+    /*border-style: dotted;*/
+    width: 47%;
+    height: auto;
+    float: right;
+    display: inline-block;
+    height: inherit;
+}
+
+#syrup{
+    margin-top: 80px;
+}
+
+.img2{
+    max-width: 100%;
+    max-height: 400px;
+    display: block;
+}
+
+.fourthdiv{
+    /*border-style: dashed;*/
+    width: 45%;
+    max-height: 400px;
+    display: inline-block;
+    padding-right: 10px;
+    float: left;
+}
+
+.thirddiv{
+    margin-left: 15px;
+    /*border-style: dotted;*/
+    width: 23%;
+    height: auto;
+    float: left;
+    display: inline-block;
+    height: inherit;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+footer p{
+    margin: 0;
+}
+footer a{
+    color: white;
+}
+
+.facts{
+    /*border-style: groove;*/
+    width: 98%;
+    height: auto;
+    background-color: blanchedalmond;
+    padding: 10px 10px;
+}
+.facts h2{
+    text-align: center;
+}
+
+footer a img{
+    height: 30px;
+    width: 30px;
+}
+
+
+
+
+
+
+
+
